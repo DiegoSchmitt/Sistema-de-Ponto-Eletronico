@@ -1,0 +1,153 @@
+/*
+.color1 {#4169E1 };
+.color2 { 	#363636 };
+.color3 { 	#696969 };
+.color4 { #DAA520 };
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    font-family: 'Secular One', sans-serif;
+}
+.container{
+    width: 300px;
+    height: 500px;
+    margin: auto;
+    background-color: aliceblue;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 240px;
+    height: 350px;
+    background-color: white;
+    margin: auto;
+}
+.box-map{
+    height: 500px;
+    margin: auto;
+    
+}
+
+.box-selfie{
+    height: 500px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.box-map h4{
+    font-size: 15px;
+    color: #696969;
+}
+.box-map p{
+    font-size: 15px;
+    color: #696969;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.welcome{
+    display: flex;
+    height: 100px;
+    color:#4169E1;
+    margin-bottom: 30px;
+}
+.welcome h1{
+    align-self: flex-end;
+    margin-left: -70px;
+    font-size: 25px;
+}
+
+.welcome p{
+   margin-top: 40px;
+}
+.welcome .icon{
+    margin-top: 50px;
+    width: 50px;
+    padding-top: 10px;
+    text-align: center;
+    background-color: rgb(194, 219, 219);
+    border-radius: 30px;
+}
+.icon{
+    color: #4169E1;
+}
+
+.time{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.time p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #363636;
+}
+
+#period{
+    color: #4169E1;
+}
+
+#current_date{
+    color: #696969;
+}
+
+#current_hour{
+    margin-bottom: 15px;
+    color: #363636;
+}
+
+
+#waiting{
+    padding: 10px 10px 10px 10px;
+    background-color:#DAA520;
+    color: white;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.registers p{
+    color: #696969;
+    margin-bottom: 15px;
+    justify-content: center;
+    text-align: center;
+}
+
+.btn{
+    padding: 10px 15px 10px 15px;
+    border-radius: 20px;
+    border-style: none;
+    background-color: #4169E1;
+    color: white;
+    margin-top: 10px;
+}
+#btn-rel{
+    display: flex;
+    width: 300px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    text-decoration: none;
+}
+#btn-rel a{
+    text-decoration: none;
+}
+.access{
+    width: 240px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
